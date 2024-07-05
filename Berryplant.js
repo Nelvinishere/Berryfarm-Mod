@@ -3,7 +3,7 @@ G.AddData({
     author:'Nelvinishere',
     desc:'Plant berries in an instant.',
     engineVersion:1,
-    manifest:0,
+    manifest:'',
     requires:['Default dataset*'],
-    sheets:{'Berrysheet':'https://file.garden/ZZekSAtrsXoIMO7N/Mod%20Image/ImprovedBerry.png'}
+    sheets:{'Berrysheet':'https://file.garden/ZZekSAtrsXoIMO7N/Mod%20Image/ImprovedBerry.png'},
 })
