@@ -14,7 +14,7 @@ new G.res ({
     icon:'0,1',
     cost:{'fruit':1, 'water':10, 'stick':5},
     use:{'land':1},
-    req:{'plant lore':true}
+    req:{'plant lore':true},
 });
 new G.Unit({
     name:'Berry farmers',
@@ -23,7 +23,7 @@ new G.Unit({
     modes:{'slow growth':{name:'slow growth', icon:'0,1'}},
     effects:[{
         type:'convert', from:{'fruit':1, 'water':5} ,into:{'fruit':10}, every:10, mode:'slow growth'
-    }]
+    }],
 });
         }
 }) 
